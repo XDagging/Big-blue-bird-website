@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: static;
+  background-color: aliceblue;
+  width: 13%;
+  height: 100%;
+}
+
+
+.navbar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  
+  
+}
+
+#logo_img {
+  background-color: blue;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+  
+}
+.tweet i{
+  
+}
+
+
+
+.main-content {
+  display: inline-block;
+  width: 87%;
+  height: 100%;
+  background-color: #5B5F97;
+}
